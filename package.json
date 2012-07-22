@@ -1,0 +1,31 @@
+{
+    "name" : "linkscrape", 
+    "version" : "0.0.1",
+    "description" : "A Node.js module to scrape and normalize links from an HTML string.",
+    "homepage" : [
+        "https://github.com/jprichardson/node-linkscrape"
+    ],
+    "repository" : {
+        "type" : "git", 
+        "url" : "https://github.com/jprichardson/node-linkscrape"
+    },
+    "keywords" : ["extract", "scrape", "html", "link", "anchor", "body", "scraper", "http"],
+    "author" : "JP Richardson <jprichardson@gmail.com>",
+    "licenses" : [ {
+        "type" : "MIT",
+        "url" : "http://github.com/jprichardson/node-linkscrape/raw/master/LICENSE"
+    }],
+    "dependencies" : {
+        "cheerio": "0.8.x"
+     },
+     "devDepdencies":{
+        "mocha": "1.3.x",
+        "coffee-script": "1.3.x",
+        "testutil": "0.2.x",
+        "autoresolve": "0.0.x"
+    },
+    "main" : "./lib/linkscrape",
+    "scripts": {
+        "test": "mocha test"
+    }
+}
