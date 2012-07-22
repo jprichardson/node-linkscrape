@@ -37,9 +37,11 @@ HTML string:
 </html>
 ```
 
-Extract links with `linkscrape`:
+You must pass in the URL (of where the HTML string came from) to the `scrape()` method so that it can normalize the links.
 
 ```javascript
+var scrape = require('linkscrape');
+
 scrape('http://someserver.com/mypage', htmlString, function($, links){
     console.log(links.length);// is 6
 
@@ -79,6 +81,7 @@ scrape('http://someserver.com/mypage', htmlString, function($, links){
     console.log(links[5].html); //is 'About Us'
     console.log(links[5].element); //object
     console.log(links[5].link); //is 'http://someserver.com/aboutus'
+});
 ```
 
 It's currently backed by [cheerio][3]. So you can use the `$` with the jQuery selectors. See [cheerio docs][3] for more details. 
