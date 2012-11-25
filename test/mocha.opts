@@ -1,6 +1,4 @@
 --reporter spec
 --ui bdd
---growl
---compilers coffee:coffee-script
 --timeout 5000
 --globals __fnoc
