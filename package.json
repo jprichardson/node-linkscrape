@@ -2,9 +2,7 @@
   "name": "linkscrape",
   "version": "0.1.0",
   "description": "A Node.js module to scrape and normalize links from an HTML string.",
-  "homepage": [
-    "https://github.com/jprichardson/node-linkscrape"
-  ],
+  "homepage": "https://github.com/jprichardson/node-linkscrape",
   "repository": {
     "type": "git",
     "url": "https://github.com/jprichardson/node-linkscrape"
