@@ -30,8 +30,7 @@
     "cheerio": "~0.10.3"
   },
   "devDependencies": {
-    "mocha": "*",
-    "testutil": "0.2.x"
+    "mocha": "*"
   },
   "main": "./lib/linkscrape",
   "scripts": {
