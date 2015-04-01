@@ -1,3 +1,9 @@
+1.0.0 / 2015-04-01
+------------------
+- changed formatting
+- upgraded `cheerio`
+- fix link https://github.com/jprichardson/node-linkscrape/pull/4
+
 0.1.0 / 2012-11-25
 ------------------
 * Removed CoffeeScript.
